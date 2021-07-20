@@ -1,0 +1,12 @@
+{
+    "name": "Overleaf Japanese Dot Tool",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Sample Chrome Extension",
+    "content_scripts": [
+        {
+            "matches": ["https://www.overleaf.com/**/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
